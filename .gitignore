@@ -1,3 +1,6 @@
+# crow logs
+druid.log
+
 # Compiled Lua sources
 luac.out
 
