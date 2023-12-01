@@ -14,7 +14,7 @@ public.add('scale1','major',snum
   , function(s) output[1].scale = scales[s] end)
 public.add('scale2','dorian',snum
   , function(s) output[2].scale = scales[s] end)
-public.add('scale3','harMin',snum
+public.add('scale3','dorian',snum
   , function(s) input[2].mode('scale',scales[s]) end)
 
 scales =
