@@ -26,18 +26,13 @@ input[1].change = function()
         output[3].dyn.dec3 = volts * 4
         output[4].dyn.att4 = attack[1]
         output[4].dyn.dec4 = volts * 5
-
-        print(volts)
     else 
         output[1].dyn.att1 = volts * -0.05
         output[1].dyn.dec1 = decay[1]
-
         output[2].dyn.att2 = volts * -0.1
         output[2].dyn.dec2 = decay[2]
-
         output[3].dyn.att3 = volts * -0.3
         output[3].dyn.dec3 = decay[3]
-
         output[4].dyn.att4 = volts * -0.5
         output[4].dyn.dec4 = decay[4]
     end
