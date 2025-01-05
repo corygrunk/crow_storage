@@ -10,7 +10,7 @@
 
 snum = {'octave','chroma','major','harMin','dorian','majTri','dom7th','wholet'}
 
-public.add('scale1','major',snum
+public.add('scale1','harMin',snum
   , function(s) output[1].scale = scales[s] end)
 public.add('scale2','dorian',snum
   , function(s) output[2].scale = scales[s] end)
